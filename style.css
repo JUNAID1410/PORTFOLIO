@@ -1,0 +1,68 @@
+*{
+    color:white;
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+body{
+    height:100vh;
+    width:100%;
+    background: linear-gradient(to top, black, rgb(37, 36, 27));
+    
+}
+/* Header section */
+Header{
+    Display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+  margin-right:10px;
+  /* background-color: aquamarine; */
+}
+a{
+    text-decoration: none;
+    margin :5px;
+}
+/*  location and other divs */
+#location{
+    color:rgb(249, 248, 146);
+    margin:10px;
+}
+#location-line{
+    /* background-color: aliceblue; */
+    display:flex;
+    align-items: center;
+    
+}
+#rehan-pic{
+    border-radius: 50%;
+    border:2px solid rgb(168, 142, 74);
+    box-shadow:2px 2px 20px rgb(223, 206, 111) ;
+}
+
+/* profile section  */
+
+#Profile{
+    /* background-color: aqua; */
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#Message{
+    /* background-color: black; */
+    height: 10rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#rehan-location{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
